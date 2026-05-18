@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Социальные сети</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('фон6.jpg')
+        }
+        
+        .reviews {
+    padding: 40px 0;
+    text-align: center;
+    margin: 180px 80px;
+    color: #76201F; /* Тёмно-коричневый цвет текста */
+    margin-bottom: 30px;
+    font-size: 40px;  
+}
+
+
+        .social-block {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .social-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            margin: 0 15px;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .social-icon:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .social-icon img {
+            width: 80px;
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+ <section class="reviews">
+        ПРИСОЕДИНЯЙТЕСЬ К НАМ В СОЦСЕТЯХ
+    <div class="social-block">
+        <!-- Иконка ВКонтакте -->
+        <a href="https://vk.ru/id669633917" target="_blank" class="social-icon">
+            <img src="vk.png" alt="ВКонтакте">
+        </a>
+        
+        <!-- Иконка Telegram -->
+        <a href="https://t.me/meowyanka" target="_blank" class="social-icon">
+            <img src="telegram.png" alt="Telegram">
+        </a>
+
+    </div>
+</body>
+</html>

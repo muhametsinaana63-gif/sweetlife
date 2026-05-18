@@ -1,0 +1,58 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-image: url('фон6.jpg')
+}
+
+.reviews {
+    padding: 40px 0;
+    text-align: ligt;
+    margin: 50px;
+}
+
+.reviews h2 {
+    color: #75201F; /* Тёмно-коричневый цвет текста */
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1200px;
+    gap: 30px;
+}
+
+.review-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    text-align: left;
+}
+
+.avatar-container {
+    text-align: ligt;
+    margin-bottom: 15px;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review-card h3 {
+    color: #75201F;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.review-card p {
+    color: #D36564;
+    line-height: 1.6;
+}
